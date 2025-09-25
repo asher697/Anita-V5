@@ -5,15 +5,15 @@ const { color } = require('./lib/myfunc');
 const toBool = (value) => value === "true";
 
 
-global.owner = process.env.OWNER_NUMBER;
-global.nomerowner = process.env.OWNER_NUMBERS;
+global.owner = process.env.Asher;
+global.nomerowner = process.env.0717750825;
 
 global.menu_image = process.env.MENU_IMAGE;
 
 global.ANTI_TEMU = toBool(process.env.ANTI_TEMU);
 global.ANTI_TAG = toBool(process.env.ANTI_TAG);
 
-global.bot_name = process.env.BOT_NAME;
+global.bot_name = process.env.Asher;
 
 global.public = toBool(process.env.PUBLIC);
 
