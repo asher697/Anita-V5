@@ -7,7 +7,7 @@
   "stack": "heroku-24",
   "env": {
     "SESSION_ID": {
-      "description": "Put your SESSION_ID here.",
+      "description": "{"noiseKey":{"private":{"type":"Buffer","data":"iFHcCglCmn8HUIaXYpzes3Jg8f1SKnfG+zrVFrifG1I="},"public":{"type":"Buffer","data":"vn1jeYy2Zp71mVz/qwwlUEGWGrby9lRGgmsPc9hy4jc="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"GMTOGzxEczhyetpdsub11P815KjT9AOapzJiuXgS4HQ="},"public":{"type":"Buffer","data":"4/exqTHUQIPGSL0ufr2IcUdd+R0IXdaDhYUOr8uhZ3g="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"4PXlJrk3fpVIhBQQ54LipPac9oJx7Cl3UZKzZ8RLfmY="},"public":{"type":"Buffer","data":"VnBOulno0BqHOXQKbSHrkz/BeMNFAKEQrhcNvyjeWXw="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"2NxkDDSHN0d5ZEK+0x5enzKBiVWW+RI0j+44uap5g2E="},"public":{"type":"Buffer","data":"im6qXWpC2VsZ1m9DVLCYgEDOiyJLnabuEilkAX9NS0w="}},"signature":{"type":"Buffer","data":"mJ4UV9KbYYw2Dqv+PFT/GPNpslgiG9xZk2pDTGQUjSxP6e3e5Fpaxv+C3YK7zn9F8lAUQ7GxkBFBTnicQE12BA=="},"keyId":1},"registrationId":7,"advSecretKey":"4l+wLcFfP4BaY/ktnsdjE5aL7AMGnsEHQjjUp9J+TgU=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"deviceId":"lm8x0EanQlmYOjmzAiNJUg","phoneId":"8f800606-f5ef-4cd9-8ae4-0b41f0369b07","identityId":{"type":"Buffer","data":"G8eeI+gnrYkIwe3tUexQ6cJPKGQ="},"registered":true,"backupToken":{"type":"Buffer","data":"4qxdIcc++7dc8VKYA2oYRe/uLVw="},"registration":{},"pairingCode":"CYRILDEV","me":{"id":"263717750825:4@s.whatsapp.net","name":"Asher","lid":"280711009431612:4@lid"},"account":{"details":"CKulpO0CEOCn1cYGGAMgACgA","accountSignatureKey":"a9dzFgJacKg8kfoHcrbMJ0/OsNYjBfAdWNEMGi3eyH8=","accountSignature":"H3JnKoAOH8Z40JN65gAXb3e3eepEFnra6BUyNWa/6NE/q6gHGCoEIButEX2HpX/m+g7MVjV7gHczj6zFNUSmDQ==","deviceSignature":"giEVMbiawUeOOJQIiECqab3F5tGS7m3tHeF32Btsym0hwKxAMOMH6GYH4xaUTEXk63o69rWvxAzZtHQZm7TMCg=="},"signalIdentities":[{"identifier":{"name":"263717750825:4@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"BWvXcxYCWnCoPJH6B3K2zCdPzrDWIwXwHVjRDBot3sh/"}}],"platform":"smba","routingInfo":{"type":"Buffer","data":"CA0IBQ=="},"lastAccountSyncTimestamp":1758811113,"lastPropHash":"nm3Bb","myAppStateKeyId":"AAAAALPx","preKeys":{"private":{"type":"Buffer","data":"GD6UStG1DcOgb0CaTCMmTRxscsodAhXj9s2gGSe9SHE="},"public":{"type":"Buffer","data":"A04RmtGQGtFHtuzYyLL/7IPZs09K/edR6nU9Ctqn9EE="}},"senderKeys":{},"timestamp":"2025-09-25T14:38:40.696Z"}",
       "value": ""
     },
     "PREFIX": {
@@ -51,7 +51,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\").",
-      "value": "2349066528353"
+      "value": "263786484652"
     },
     "PUBLIC": {
       "description": "Worktype of your bot. Use public or private. If it is private, then only the bot number can use it. If public, then everyone can use it.",
