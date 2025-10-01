@@ -5,8 +5,8 @@ const { color } = require('./lib/myfunc');
 const toBool = (value) => value === "true";
 
 
-global.owner = process.env.OWNER_NUMBER;
-global.nomerowner = process.env.OWNER_NUMBERS;
+global.owner = process.env.Asher;
+global.nomerowner = process.env.263717750825;
 
 global.menu_image = process.env.MENU_IMAGE;
 
